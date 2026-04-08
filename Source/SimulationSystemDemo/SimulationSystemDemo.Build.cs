@@ -31,6 +31,9 @@ public class SimulationSystemDemo : ModuleRules
 			new string[]
 			{
 				"Core", "Engine", "SimulationSystem",
+				"MassEntity", 
+				"MassSpawner",
+				"MassSimulation",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
